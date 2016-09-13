@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moonshoter.scrollAnimatorLayout.ScrollAnimatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll_animator_view"
+    android:background="@drawable/launch_avtivity_bg">
+
+
+    <RelativeLayout
+        android:id="@+id/content_rl"
+        android:background="@drawable/launch_avtivity_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请上滑或者下滑"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/mask_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:tag="mask" />
+
+    <ImageView
+        android:id="@+id/top_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/launch_activity_photo_ic"
+        android:tag="top"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/bottom_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/launch_activity_photo_ic"
+        android:tag="bottom"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/left_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/launch_activity_photo_ic"
+        android:tag="left"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/right_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/launch_activity_photo_ic"
+        android:tag="right"
+        android:visibility="gone" />
+
+</com.moonshoter.scrollAnimatorLayout.ScrollAnimatorLayout>
+
