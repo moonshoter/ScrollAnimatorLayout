@@ -10,10 +10,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AlbumsCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
-        <item name="android:background">@drawable/album_albums_pick_cb_bg_sel</item>
-        <item name="android:button">@null</item>
-    </style>
+
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

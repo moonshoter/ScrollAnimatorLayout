@@ -2,8 +2,7 @@
 <com.moonshoter.scrollAnimatorLayout.ScrollAnimatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/scroll_animator_view"
-    android:background="@drawable/launch_avtivity_bg">
+    android:id="@+id/scroll_animator_view">
 
 
     <RelativeLayout
